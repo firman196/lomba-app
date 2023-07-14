@@ -13,7 +13,7 @@ CREATE TABLE IF NOT EXISTS `penyelenggara` (
     linkedin VARCHAR(255) DEFAULT NULL,
     foto VARCHAR(100) DEFAULT NULL,
     is_verified ENUM(0,1) DEFAULT 0 COMMENT '0:false, 1:true',
-    status ENUM(0,1,2) DEFAULT 0 COMMENT '0:nonaktif, 1:aktif, 2:banned',
+    status ENUM(0,1,2) DEFAULT 0 COMMENT '0:panding, 1:aktif, 2:banned',
     created_at TIMESTAMP DEFAULT (now()),
     updated_at TIMESTAMP DEFAULT (now())
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
