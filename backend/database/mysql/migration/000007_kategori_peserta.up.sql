@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS `kategori_peserta` (
+    id INTEGER PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100) NOT NULL,
+    is_deleted ENUM(0,1) DEFAULT 0 COMMENT '0: FALSE or 1:TRUE';
+    created_at TIMESTAMP DEFAULT (now()),
+    updated_at TIMESTAMP DEFAULT (now())
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
