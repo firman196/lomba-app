@@ -1,1 +1,0 @@
-DROP TABLE IF EXISTS `attribut_hadiah_lomba`;

@@ -1,0 +1,10 @@
+DROP TABLE IF EXISTS `peserta`;
+DROP TABLE IF EXISTS `penyelenggara`;
+DROP TABLE IF EXISTS `kategori_lomba`;
+DROP TABLE IF EXISTS `kategori`;
+DROP TABLE IF EXISTS `tags_lomba`;
+DROP TABLE IF EXISTS `tags`;
+DROP TABLE IF EXISTS `attribute_peserta_lomba`;
+DROP TABLE IF EXISTS `kategori_peserta`;
+DROP TABLE IF EXISTS `attribut_hadiah_lomba`;
+DROP TABLE IF EXISTS `lomba`;
